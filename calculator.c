@@ -9,5 +9,8 @@ void main() {
   switch op {
     case "add": 
              a + b;
+    case "sub":
+      a-b;
     }
+    
 }
