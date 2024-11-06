@@ -1,0 +1,18 @@
+// MULTIPLICATION
+
+#include <stdio.h>
+
+int main()
+{
+    int n, a;
+    printf("Enter 1st number:\n");
+    scanf("%d", &n);
+
+    printf("Enter 2nd number:\n");
+    scanf("%d", &a);
+
+    int mul = n * a;
+    printf("The multiplication will be %d", mul);
+
+    return 0;
+}
