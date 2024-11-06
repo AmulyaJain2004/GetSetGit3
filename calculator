@@ -1,0 +1,14 @@
+#include<stdio.h>
+int add (int n,int m)
+{
+    int b=n+m;
+    return b;
+}
+int main()
+{
+    int n,m;
+    scanf("%d",&n);
+    scanf("%d",&m);
+    int x=add(n,m);
+    printf("%d",x);
+    return 0;
