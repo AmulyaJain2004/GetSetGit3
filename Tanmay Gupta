@@ -4,14 +4,14 @@
 
 int main()
 {
-    char n, a;
+    int n, a;
     printf("Enter 1st number:\n");
-    scanf("%c", &n);
+    scanf("%d", &n);
 
     printf("Enter 2nd number:\n");
-    scanf(" %c", &a);
+    scanf("%d", &a);
 
-    int mul = (int)n * (int)a;
+    int mul = n * a;
     printf("The multiplication will be %d", mul);
 
     return 0;
